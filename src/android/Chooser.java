@@ -120,7 +120,7 @@ public class Chooser extends CordovaPlugin {
 
 						String base64 = "";
 
-						if (data.getBooleanExtra(Chooser.INCLUDE_DATA, false)) {
+						if (true) {
 							byte[] bytes = Chooser.getBytesFromInputStream(
 								contentResolver.openInputStream(uri)
 							);
